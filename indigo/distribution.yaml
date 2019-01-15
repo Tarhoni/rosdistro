@@ -10,10 +10,11 @@ release_platforms:
   - trusty
 repositories:
 
-  for_test:
+  src:
     release:
       packages:
       - for_test
+      - Beginner_test
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tarhoni/for_test.git
