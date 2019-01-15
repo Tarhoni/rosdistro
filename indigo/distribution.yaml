@@ -17948,5 +17948,20 @@ repositories:
       url: https://github.com/stonier/zeroconf_msgs.git
       version: indigo
     status: developed
+  src:
+    doc:
+      type: git
+      url: ttps://github.com/tarhoni/src.git
+      version: indigo
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: ttps://github.com/tarhoni/src.git
+      version: 0.2.1-0
+    source:
+      type: git
+      url: https://github.com/tarhoni/src.git
+      version: indigo
+    status: developed
 type: distribution
 version: 2
