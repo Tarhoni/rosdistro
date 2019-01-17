@@ -9,6 +9,35 @@ release_platforms:
   ubuntu:
   - trusty
 repositories:
-    
+  scr2:
+    doc:
+      type: git
+      url: ttps://github.com/tarhoni/scr2.git
+      version: indigo
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/tarhoni/scr2.git
+      version: 0.2.1-0
+    source:
+      type: git
+      url: https://github.com/tarhoni/scr2.git
+      version: indigo
+    status: developed  
+  message_generation:
+    doc:
+      type: git
+      url: https://github.com/ros/message_generation.git
+      version: groovy-devel
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-gbp/message_generation-release.git
+      version: 0.2.10-0
+    source:
+      type: git
+      url: https://github.com/ros/message_generation.git
+      version: groovy-devel
+    status: maintained
 type: distribution
 version: 2
