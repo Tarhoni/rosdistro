@@ -9,6 +9,28 @@ release_platforms:
   ubuntu:
   - trusty
 repositories:
+  roscpp_core:
+    doc:
+      type: git
+      url: https://github.com/ros/roscpp_core.git
+      version: kinetic-devel
+    release:
+      packages:
+      - cpp_common
+      - roscpp_core
+      - roscpp_serialization
+      - roscpp_traits
+      - rostime
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-gbp/roscpp_core-release.git
+      version: 0.6.11-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/roscpp_core.git
+      version: kinetic-devel
+    status: maintained
   catkin:
     doc:
       type: git
