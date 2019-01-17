@@ -56,5 +56,43 @@ repositories:
       url: https://github.com/ros/message_generation.git
       version: groovy-devel
     status: maintained
+  ros_comm:
+    doc:
+      type: git
+      url: https://github.com/ros/ros_comm.git
+      version: indigo-devel
+    release:
+      packages:
+      - message_filters
+      - ros_comm
+      - rosbag
+      - rosbag_storage
+      - rosconsole
+      - roscpp
+      - rosgraph
+      - roslaunch
+      - roslz4
+      - rosmaster
+      - rosmsg
+      - rosnode
+      - rosout
+      - rosparam
+      - rospy
+      - rosservice
+      - rostest
+      - rostopic
+      - roswtf
+      - topic_tools
+      - xmlrpcpp
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-gbp/ros_comm-release.git
+      version: 1.11.21-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/ros_comm.git
+      version: indigo-devel
+    status: maintained
 type: distribution
 version: 2
