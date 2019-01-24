@@ -13,7 +13,7 @@ repositories:
   scr2:
     source:
       type: git
-      url: https://github.com/tarhoni/scr2.git
+      url: git@github.com:Tarhoni/scr2.git
       version: indigo
     status: developed 
   catkin:
