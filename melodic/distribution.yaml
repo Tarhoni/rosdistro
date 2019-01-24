@@ -14,51 +14,50 @@ repositories:
     source:
       type: git
       url: git@github.com:Tarhoni/scr2.git
-      version: indigo
+      version: melodic
     status: developed 
   catkin:
     doc:
       type: git
       url: https://github.com/ros/catkin.git
-      version: indigo-devel
+      version: kinetic-devel
     release:
       tags:
-        release: release/indigo/{package}/{version}
+        release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/catkin-release.git
-      version: 0.6.19-0
+      version: 0.7.14-0
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/catkin.git
-      version: indigo-devel
+      version: kinetic-devel
     status: maintained
   message_generation:
     doc:
       type: git
       url: https://github.com/ros/message_generation.git
-      version: groovy-devel
+      version: kinetic-devel
     release:
       tags:
-        release: release/indigo/{package}/{version}
+        release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/message_generation-release.git
-      version: 0.2.10-0
+      version: 0.4.0-0
     source:
       type: git
       url: https://github.com/ros/message_generation.git
-      version: groovy-devel
+      version: kinetic-devel
     status: maintained
   ros_comm:
     doc:
       type: git
       url: https://github.com/ros/ros_comm.git
-      version: indigo-devel
+      version: melodic-devel
     release:
       packages:
       - message_filters
       - ros_comm
       - rosbag
       - rosbag_storage
-      - rosconsole
       - roscpp
       - rosgraph
       - roslaunch
@@ -76,14 +75,14 @@ repositories:
       - topic_tools
       - xmlrpcpp
       tags:
-        release: release/indigo/{package}/{version}
+        release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/ros_comm-release.git
-      version: 1.11.21-0
+      version: 1.14.3-0
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/ros_comm.git
-      version: indigo-devel
+      version: melodic-devel
     status: maintained
   std_msgs:
     doc:
