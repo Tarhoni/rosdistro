@@ -10,7 +10,7 @@ release_platforms:
   - trusty
 repositories:
  
-  scr:
+  scr2:
     source:
       type: git
       url: git@github.com:Tarhoni/scr2.git
