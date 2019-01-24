@@ -10,10 +10,10 @@ release_platforms:
   - trusty
 repositories:
  
-  scr2:
+  scr:
     source:
       type: git
-      url: git@github.com:Tarhoni/scrz2.git
+      url: git@github.com:Tarhoni/scr2.git
       version: indigo
     status: developed 
   catkin:
