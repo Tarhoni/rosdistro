@@ -1,4 +1,4 @@
-%YAML 1.1
+YAML 1.1
 # ROS distribution file
 # see REP 143: http://ros.org/reps/rep-0143.html
 ---
@@ -10,94 +10,12 @@ release_platforms:
   ubuntu:
   - bionic
 repositories:
-  scr2:
+
+  mars_utils:
     source:
       type: git
-      url: git@github.com:Tarhoni/scr2.git
-      version: melodic
-    status: developed 
-  catkin:
-    doc:
-      type: git
-      url: https://github.com/ros/catkin.git
-      version: kinetic-devel
-    release:
-      tags:
-        release: release/melodic/{package}/{version}
-      url: https://github.com/ros-gbp/catkin-release.git
-      version: 0.7.14-0
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ros/catkin.git
-      version: kinetic-devel
-    status: maintained
-  message_generation:
-    doc:
-      type: git
-      url: https://github.com/ros/message_generation.git
-      version: kinetic-devel
-    release:
-      tags:
-        release: release/melodic/{package}/{version}
-      url: https://github.com/ros-gbp/message_generation-release.git
-      version: 0.4.0-0
-    source:
-      type: git
-      url: https://github.com/ros/message_generation.git
-      version: kinetic-devel
-    status: maintained
-  ros_comm:
-    doc:
-      type: git
-      url: https://github.com/ros/ros_comm.git
-      version: melodic-devel
-    release:
-      packages:
-      - message_filters
-      - ros_comm
-      - rosbag
-      - rosbag_storage
-      - roscpp
-      - rosgraph
-      - roslaunch
-      - roslz4
-      - rosmaster
-      - rosmsg
-      - rosnode
-      - rosout
-      - rosparam
-      - rospy
-      - rosservice
-      - rostest
-      - rostopic
-      - roswtf
-      - topic_tools
-      - xmlrpcpp
-      tags:
-        release: release/melodic/{package}/{version}
-      url: https://github.com/ros-gbp/ros_comm-release.git
-      version: 1.14.3-0
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ros/ros_comm.git
-      version: melodic-devel
-    status: maintained
-  std_msgs:
-    doc:
-      type: git
-      url: https://github.com/ros/std_msgs.git
-      version: groovy-devel
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/ros-gbp/std_msgs-release.git
-      version: 0.5.10-0
-    source:
-      type: git
-      url: https://github.com/ros/std_msgs.git
-      version: groovy-devel
-    status: maintained
+      url: git@gitlab.cc-asp.fraunhofer.de:iml/oe130/ROS/ROS-MARS/mars_utils.git
+      version: master
+    status: developed
 type: distribution
 version: 2
