@@ -64,6 +64,55 @@ repositories:
       type: git
       url: https://github.com/ros/common_msgs.git
       version: jade-devel
-status: maintained
+    status: maintained
+  ros_comm:
+    doc:
+      type: git
+      url: https://github.com/ros/ros_comm.git
+      version: melodic-devel
+    release:
+      packages:
+      - message_filters
+      - ros_comm
+      - rosbag
+      - rosbag_storage
+      - roscpp
+      - rosgraph
+      - roslaunch
+      - roslz4
+      - rosmaster
+      - rosmsg
+      - rosnode
+      - rosout
+      - rosparam
+      - rospy
+      - rosservice
+      - rostest
+      - rostopic
+      - roswtf
+      - topic_tools
+      - xmlrpcpp
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-gbp/ros_comm-release.git
+      version: 1.14.3-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/ros_comm.git
+      version: melodic-devel
+    status: maintained
+  mars_common_msgs:
+    source:
+      type: git
+      url: git@gitlab.cc-asp.fraunhofer.de:iml/oe130/ROS/ROS-MARS/mars_common_msgs.git
+      version: master
+    status: developed
+  mars_topology_msgs:
+    source:
+      type: git
+      url: git@gitlab.cc-asp.fraunhofer.de:iml/oe130/ROS/ROS-MARS/mars_topology_msgs.git
+      version: master
+    status: developed
 type: distribution
 version: 2
