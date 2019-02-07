@@ -111,7 +111,7 @@ repositories:
   mars_topology_msgs:
     source:
       type: git
-      url: git@gitlab.cc-asp.fraunhofer.de:iml/oe130/ROS/ROS-MARS/mars_topology_msgs.git
+      url: git@gitlab.cc-asp.fraunhofer.de:iml/oe130/ROS/ROS-MARS/Topology/mars_topology_msgs.git
       version: master
     status: developed
 type: distribution
