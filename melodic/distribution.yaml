@@ -32,5 +32,12 @@ repositories:
       url: https://github.com/ros/catkin.git
       version: kinetic-devel
 status: maintained
+  mars_common:
+    source:
+      type: git
+      url: git@gitlab.cc-asp.fraunhofer.de:iml/oe130/ROS/ROS-MARS/mars_common.git
+      version: master
+    status: developed
+    
 type: distribution
 version: 2
