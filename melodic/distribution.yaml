@@ -48,11 +48,6 @@ repositories:
       version: kinetic-devel
     status: maintained
   mars_common_msgs:
-    doc:
-      type: git
-      url: https://github.com/ros/message_generation.git
-      version: kinetic-devel
-    release:
       tags:
         release: release/melodic/{package}/{version}
       url: git@gitlab.cc-asp.fraunhofer.de:iml/oe130/ROS/ROS-MARS/mars_common_msgs.git
@@ -63,7 +58,6 @@ repositories:
       version: kinetic-devel
     status: maintained
   mars_topology_msgs:
-    doc:
       type: git
       url: git@gitlab.cc-asp.fraunhofer.de:iml/oe130/ROS/ROS-MARS/Topology/mars_topology_msgs.git
       version: kinetic-devel
