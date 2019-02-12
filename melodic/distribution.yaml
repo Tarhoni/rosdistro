@@ -62,6 +62,21 @@ repositories:
       url: git@gitlab.cc-asp.fraunhofer.de:iml/oe130/ROS/ROS-MARS/mars_common_msgs.git
       version: kinetic-devel
     status: maintained
+  mars_topology_msgs:
+    doc:
+      type: git
+      url: git@gitlab.cc-asp.fraunhofer.de:iml/oe130/ROS/ROS-MARS/Topology/mars_topology_msgs.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: git@gitlab.cc-asp.fraunhofer.de:iml/oe130/ROS/ROS-MARS/Topology/mars_topology_msgs.git
+      version: 0.4.0-0
+    source:
+      type: git
+      url: git@gitlab.cc-asp.fraunhofer.de:iml/oe130/ROS/ROS-MARS/Topology/mars_topology_msgs.git
+      version: kinetic-devel
+    status: maintained  
   ros_comm:
     doc:
       type: git
