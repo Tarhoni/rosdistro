@@ -7161,7 +7161,7 @@ repositories:
       version: master
     status: developed
   mars_common_msgs:
-     release:
+    release:
       tags:
         release: release/melodic/{package}/{version}
       url: git@gitlab.cc-asp.fraunhofer.de:iml/oe130/ROS/ROS-MARS/mars_common_msgs.git
