@@ -15,5 +15,23 @@ repositories:
       url: git@gitlab.cc-asp.fraunhofer.de:iml/oe130/ROS/ROS-MARS/mars_common.git
       version: master
     status: developed
+  mars_topology_msgs:
+    source:
+      type: git
+      url: git@gitlab.cc-asp.fraunhofer.de:iml/oe130/ROS/ROS-MARS/Topology/mars_topology_msgs.git
+      version: master
+    status: developed
+  mars_topology_actions:
+    source:
+      type: git
+      url: git@gitlab.cc-asp.fraunhofer.de:iml/oe130/ROS/ROS-MARS/Topology/mars_topology_actions.git
+      version: master
+    status: developed
+  mars_common_msgs:
+    source:
+      type: git
+      url: git@gitlab.cc-asp.fraunhofer.de:iml/oe130/ROS/ROS-MARS/mars_common_msgs.git
+      version: master
+    status: developed
 type: source
 version: 1

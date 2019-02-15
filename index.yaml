@@ -33,5 +33,7 @@ distributions:
   melodic:
     distribution: [melodic/distribution.yaml]
     distribution_cache: http://repositories.ros.org/rosdistro_cache/melodic-cache.yaml.gz
+    source_builds: [melodic/source-build.yaml]
+    source: melodic/source.yaml
 type: index
 version: 3
