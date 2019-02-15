@@ -7149,6 +7149,11 @@ repositories:
       version: master
     status: developed
   mars_topology_msgs:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: git@gitlab.cc-asp.fraunhofer.de:iml/oe130/ROS/ROS-MARS/Topology/mars_topology_msgs.git
+      version: 0.2.1-0
     source:
       type: git
       url: git@gitlab.cc-asp.fraunhofer.de:iml/oe130/ROS/ROS-MARS/Topology/mars_topology_msgs.git
